@@ -1,16 +1,18 @@
-<h1 align="center">Hi there, I'm <a href="https://daniilshat.ru/" target="_blank">Daniil</a> 
+<h1 align="center">Привет я <a href="#!" target="_blank">Антон</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">Computer science student, IT news writer from Russia 🇷🇺</h3>
+<h3 align="center">Я студент, а также фронтенд разработчик</h3>
+<h2 align="center">Здесь собраны основные мои настройки</h3>
 
-# Мой шрифт: {
+
+# Мой шрифт: 
       FiraCode,
       JetBrains.
-}
 
 
-# Нужные приложения в работе: { 
+
+# Нужные приложения в работе: 
       Focus To-Do(Таймер помодоро),
       Figma(Макеты),
       Insomnia(Отправка запросов для проверки),
       PowerToys(много полезный функций, в том числе пиккер),
-}
+
