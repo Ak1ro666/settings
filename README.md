@@ -4,15 +4,46 @@
 <h2 align="center">Здесь собраны основные мои настройки</h3>
 
 
-# Мой шрифт: 
+# Мои шрифт: 
       FiraCode,
       JetBrains.
-
-
 
 # Нужные приложения в работе: 
       Focus To-Do(Таймер помодоро),
       Figma(Макеты),
       Insomnia(Отправка запросов для проверки),
-      PowerToys(много полезный функций, в том числе пиккер),
+      PowerToys(много полезный функций, в том числе пиккер).
+
+# Мои любимые темы и иконки:
+      Bearded Theme Vivid Black,
+      Tol,
+      soft sight,
+      mokka,
+      Hacker Theme,
+      Andromeda,
+      Icons.
+
+# Лучшие расширения для VsCode: 
+      Auto Close Tag - Автоматическое закрытия тегов,
+      Auto Complete Tag - Автоматическое заверешени тегов,
+      Auto Rename Tag - Автоматическое переименование тегов,
+      Backticks - Автосмена ковычек при вставки переменной в обычные ковычки '${}',
+      Bootstrap IntelliSense - Подсказки bootstrap,
+      Code Spell Cheker - Автоматическая проверка на грамматические ошибки,
+      eCsstractor for VSCode - Автоматическое копирование всех css тегов,
+      Simple React Snippets - Подсказки для реакт,
+      filesize - Размер файла,
+      HTML CSS Support - Дополнительная поддержка html, css,
+      htmltagwrap - команда для оборачивания выделенного кода в тег,
+      Image preview - Просмотр картинки при нажатии на неё,
+      Import Cost - Показывает сколько весит подключённая библиотека,
+      Live Server - Запуск локального сервера,
+      Path intellisense - Делает лучше способы путей к файлам,
+      Prettier - Автоматическое форматирование кода,
+      Project Manager - Показывает твои сохранённые проекты, быстрая навигация,
+      Sass (.sass only) - Поддержка sass,
+      Live Sass Compiller - Автоматическая компиляция кода из scss в css,
+      Svg Preview - Показывает картинки вставленные в коде,
+      Tabnine - AI, которое подсказывает части кода.
+      
 
