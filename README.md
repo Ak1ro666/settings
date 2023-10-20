@@ -14,6 +14,13 @@
       Insomnia(Отправка запросов для проверки),
       PowerToys(много полезный функций, в том числе пиккер).
 
+# Расширения для браузера:
+      Vimbox переводчик - лучший переводчик,
+      JSON Formatter - для онглайн форматирования формата json,
+      React Developers Tools - Для проверки React кода в браузере,
+      Redux Dev Tools - Аналогично React Developers Tools, но с Redux,
+      WhatFont - Узнать какой шрифт при наведении мышкой на слово.
+
 # Мои любимые темы и иконки:
       Bearded Theme Vivid Black,
       Tol,
