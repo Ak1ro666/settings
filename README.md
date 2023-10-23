@@ -20,6 +20,7 @@
       React Developers Tools - Для проверки React кода в браузере,
       Redux Dev Tools - Аналогично React Developers Tools, но с Redux,
       WhatFont - Узнать какой шрифт при наведении мышкой на слово.
+      TypeScript Editor - позволяет писать TypeScript прямо в браузере.
 
 # Мои любимые темы и иконки:
       Bearded Theme Vivid Black,
