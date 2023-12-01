@@ -56,113 +56,127 @@
 
 # Мои настройки settings.json
       {
-         "editor.snippetSuggestions": "top",
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
+  "prettier.bracketSameLine": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 100,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "bounded",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn": 60,
+  "editor.insertSpaces": false,
+  "editor.smoothScrolling": true,
+  "editor.glyphMargin": false,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.suggestSelection": "first",
+  "editor.fontLigatures": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.renderControlCharacters": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
 
-         // Main editor settings
-         // Настройки Prettier
+  "explorer.compactFolders": false,
+  "explorer.enableDragAndDrop": false,
 
-         "editor.tabSize": 2,
-         "prettier.tabWidth": 2,
-         "prettier.singleQuote": true,
-         "prettier.trailingComma": "all",
-         "prettier.semi": true,
-         "prettier.jsxBracketSameLine": true,
-         "prettier.printWidth": 100,
-         "editor.formatOnSave": true,
-         "editor.wordWrap": "bounded",
-         "editor.wrappingIndent": "same",
-         "editor.wordWrapColumn": 60,
-         "editor.insertSpaces": false,
-         "editor.smoothScrolling": true,
-         "editor.detectIndentation": true,
-         "editor.snippetSuggestions": "top",
-         "editor.fontLigatures": true,
-         "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-         },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "never",
 
-         "editor.defaultFormatter": "esbenp.prettier-vscode",
-         "[javascript]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-         },
-         "debug.javascript.resourceRequestOptions": {},
-         "files.autoSave": "afterDelay",
-         "json.schemas": [
-            {
-               "fileMatch": ["/myfile"],
-               "url": "schemaURL"
-            }
-         ],
+  "debug.toolBarLocation": "hidden",
+  "debug.focusWindowOnBreak": false,
+  "debug.showInlineBreakpointCandidates": false,
+  "debug.showBreakpointsInOverviewRuler": false,
 
-         // Настройки ESLint
-         "eslint.packageManager": "yarn",
-         "eslint.format.enable": true,
-         "eslint.alwaysShowStatus": true,
-         "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "debug.javascript.resourceRequestOptions": {},
+  "files.autoSave": "afterDelay",
+  "json.schemas": [
+    {
+      "fileMatch": ["/myfile"],
+      "url": "schemaURL"
+    }
+  ],
 
-         // Курсор
-         "editor.cursorBlinking": "expand",
-         "editor.cursorStyle": "line",
-         "editor.cursorWidth": 2,
-         "editor.cursorSmoothCaretAnimation": "on",
-         "editor.tabSize": 2,
-         "editor.insertSpaces": false,
-         "explorer.confirmDelete": false,
-         "git.openRepositoryInParentFolders": "never",
-         "terminal.integrated.profiles.windows": {
-            "GitBash": {
-               "path": "D:/Git/bin/bash.exe"
-            }
-         },
-         "terminal.integrated.profiles.windows": {
-            "GitBash": {
-               "path": "D:/dev/Git/bin/bash.exe"
-            }
-         },
-         "terminal.integrated.defaultProfile.windows": "Git Bash",
-         "terminal.integrated.automationProfile.windows": {},
-         "[css]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-         },
-         "[html]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-         },
-         "explorer.confirmDragAndDrop": false,
-         "security.workspace.trust.untrustedFiles": "open",
-         "prettier.tabWidth": 3,
-         "editor.stickyScroll.enabled": true,
-         "[scss]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-         },
-         "[javascript]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-         },
-         "workbench.sideBar.location": "right",
-         "javascript.updateImportsOnFileMove.enabled": "always",
-         "liveSassCompile.settings.autoprefix": [],
-         "liveSassCompile.settings.formats": [
-            {
-               "format": "expanded",
-               "extensionName": ".css",
-               "savePath": "/css"
-            }
-         ],
-         "[jsonc]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-         },
-         "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
-         "notebook.showFoldingControls": "always",
-         "editor.showFoldingControls": "always",
-         "tabnine.experimentalAutoImports": true,
-         "workbench.colorTheme": "Bearded Theme Vivid Black",
-         "cSpell.userWords": ["Показать", "Скрыть", "список"],
-         "liveSassCompile.settings.showOutputWindowOn": "None",
-         "editor.renderWhitespace": "all",
-         "liveServer.settings.donotVerifyTags": true,
-         "window.titleBarStyle": "custom",
-         "workbench.iconTheme": "icons",
-         "update.mode": "manual"
-      }
+  // Курсор
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "explorer.confirmDelete": false,
+  "git.openRepositoryInParentFolders": "never",
+  "terminal.integrated.profiles.windows": {
+    "GitBash": {
+      "path": "D:/Git/bin/bash.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+  "notebook.showFoldingControls": "always",
+  "editor.showFoldingControls": "always",
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.userWords": ["Показать", "Скрыть", "список"],
+  "editor.renderWhitespace": "none",
+  "liveServer.settings.donotVerifyTags": true,
+  "window.titleBarStyle": "custom",
+  "update.mode": "manual",
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnPaste": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "workbench.colorTheme": "Jetbrains Fleet",
+  "files.associations": {
+    "*.scss": "tailwindcss",
+    "*.module.scss": "tailwindcss",
+    "*.css": "css",
+    "*.module.css": "css"
+  },
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "node_modules/open-props/open-props.min.css"
+  ],
+  "workbench.activityBar.visible": false,
+  "workbench.colorCustomizations": {},
+  "workbench.productIconTheme": "el-vsc-v1-icons",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.size": "fit",
+  "editor.minimap.enabled": false
+}
+
 
       
 
