@@ -56,126 +56,140 @@
 
 # Мои настройки settings.json
       {
-  "editor.snippetSuggestions": "top",
-  "editor.tabSize": 2,
-  "prettier.tabWidth": 2,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
-  "prettier.semi": true,
-  "prettier.bracketSameLine": true,
-  "prettier.arrowParens": "avoid",
-  "prettier.printWidth": 100,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": true
-  },
-  "editor.formatOnSave": true,
-  "editor.wordWrap": "bounded",
-  "editor.wrappingIndent": "same",
-  "editor.wordWrapColumn": 60,
-  "editor.insertSpaces": false,
-  "editor.smoothScrolling": true,
-  "editor.glyphMargin": false,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.6,
-  "editor.suggestSelection": "first",
-  "editor.fontLigatures": true,
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "editor.renderControlCharacters": false,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
+        // Editor Settings
+        "editor.snippetSuggestions": "top",
+        "editor.tabSize": 2,
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+        },
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "bounded",
+        "editor.wrappingIndent": "same",
+        "editor.wordWrapColumn": 60,
+        "editor.insertSpaces": false,
+        "editor.smoothScrolling": true,
+        "editor.glyphMargin": false,
+        "editor.fontSize": 14,
+        "editor.lineHeight": 1.6,
+        "editor.suggestSelection": "first",
+        "editor.fontLigatures": true,
+        "editor.scrollbar.horizontal": "hidden",
+        "editor.scrollbar.vertical": "hidden",
+        "editor.renderControlCharacters": false,
+        "editor.cursorBlinking": "expand",
+        "editor.cursorStyle": "line",
+        "editor.cursorWidth": 2,
+        "editor.cursorSmoothCaretAnimation": "on",
+        "editor.confirmDelete": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+        "editor.renderWhitespace": "none",
+        "editor.stickyScroll.enabled": true,
+        "editor.showFoldingControls": "always",
+      
+        // Prettier Settings
+        "prettier.tabWidth": 2,
+        "prettier.singleQuote": true,
+        "prettier.trailingComma": "all",
+        "prettier.semi": true,
+        "prettier.bracketSameLine": true,
+        "prettier.arrowParens": "avoid",
+        "prettier.printWidth": 100,
+      
+        // Emmet Settings
+        "emmet.includeLanguages": {
+          "javascript": "javascriptreact"
+        },
+        "emmet.triggerExpansionOnTab": true,
+        "emmet.showExpandedAbbreviation": "never",
+      
+        // Explorer Settings
+        "explorer.compactFolders": false,
+        "explorer.enableDragAndDrop": false,
+        "explorer.confirmDragAndDrop": false,
+      
+        // Debug Settings
+        "debug.toolBarLocation": "hidden",
+        "debug.focusWindowOnBreak": false,
+        "debug.showInlineBreakpointCandidates": false,
+        "debug.showBreakpointsInOverviewRuler": false,
+      
+        // Terminal Settings
+        "terminal.integrated.profiles.windows": {
+          "GitBash": {
+            "path": "D:/Git/bin/bash.exe"
+          }
+        },
+        "terminal.integrated.defaultProfile.windows": "Git Bash",
+      
+        // Language-Specific Settings
+        "[javascript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[css]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[html]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[scss]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[jsonc]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+      
+        // Other Settings
+        "files.autoSave": "afterDelay",
+        "json.schemas": [
+          {
+            "fileMatch": ["/myfile"],
+            "url": "schemaURL"
+          }
+        ],
+        "security.workspace.trust.untrustedFiles": "open",
+        "javascript.updateImportsOnFileMove.enabled": "always",
+      
+        // CSpell Settings
+        "cSpell.userWords": ["Показать", "Скрыть", "список"],
+      
+        // Live Server Settings
+        "liveServer.settings.donotVerifyTags": true,
+      
+        // Update Settings
+        "update.mode": "manual",
+      
+        // Workbench Settings
+        "workbench.sideBar.location": "right",
+        "workbench.colorTheme": "Jetbrains Fleet",
+        "workbench.iconTheme": "material-icon-theme",
+        "workbench.activityBar.visible": false,
+        "workbench.colorCustomizations": {},
+        "workbench.productIconTheme": "el-vsc-v1-icons",
+      
+        // File Associations
+        "files.associations": {
+          "*.scss": "tailwindcss",
+          "*.module.scss": "tailwindcss",
+          "*.css": "css",
+          "*.module.css": "css"
+        },
+      
+        // CSS Variables Settings
+        "cssVariables.lookupFiles": [
+          "**/*.css",
+          "**/*.scss",
+          "**/*.sass",
+          "**/*.less",
+          "node_modules/open-props/open-props.min.css"
+        ],
+      
+        // Minimap Settings
+        "editor.minimap.renderCharacters": false,
+        "editor.minimap.size": "fit",
+              "editor.minimap.enabled": false
+      }
 
-  "explorer.compactFolders": false,
-  "explorer.enableDragAndDrop": false,
-
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.showExpandedAbbreviation": "never",
-
-  "debug.toolBarLocation": "hidden",
-  "debug.focusWindowOnBreak": false,
-  "debug.showInlineBreakpointCandidates": false,
-  "debug.showBreakpointsInOverviewRuler": false,
-
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "debug.javascript.resourceRequestOptions": {},
-  "files.autoSave": "afterDelay",
-  "json.schemas": [
-    {
-      "fileMatch": ["/myfile"],
-      "url": "schemaURL"
-    }
-  ],
-
-  // Курсор
-  "editor.cursorBlinking": "expand",
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 2,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "explorer.confirmDelete": false,
-  "git.openRepositoryInParentFolders": "never",
-  "terminal.integrated.profiles.windows": {
-    "GitBash": {
-      "path": "D:/Git/bin/bash.exe"
-    }
-  },
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "explorer.confirmDragAndDrop": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.sideBar.location": "right",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
-  "notebook.showFoldingControls": "always",
-  "editor.showFoldingControls": "always",
-  "tabnine.experimentalAutoImports": true,
-  "cSpell.userWords": ["Показать", "Скрыть", "список"],
-  "editor.renderWhitespace": "none",
-  "liveServer.settings.donotVerifyTags": true,
-  "window.titleBarStyle": "custom",
-  "update.mode": "manual",
-  "editor.accessibilitySupport": "off",
-  "editor.formatOnPaste": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "window.menuBarVisibility": "compact",
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "editor.stickyScroll.enabled": true,
-  "workbench.colorTheme": "Jetbrains Fleet",
-  "files.associations": {
-    "*.scss": "tailwindcss",
-    "*.module.scss": "tailwindcss",
-    "*.css": "css",
-    "*.module.css": "css"
-  },
-  "cssVariables.lookupFiles": [
-    "**/*.css",
-    "**/*.scss",
-    "**/*.sass",
-    "**/*.less",
-    "node_modules/open-props/open-props.min.css"
-  ],
-  "workbench.activityBar.visible": false,
-  "workbench.colorCustomizations": {},
-  "workbench.productIconTheme": "el-vsc-v1-icons",
-  "editor.minimap.renderCharacters": false,
-  "editor.minimap.size": "fit",
-  "editor.minimap.enabled": false
-}
 
 
       
