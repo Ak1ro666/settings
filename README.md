@@ -60,16 +60,31 @@
         "editor.snippetSuggestions": "top",
         "editor.tabSize": 2,
         "editor.codeActionsOnSave": {
-          "source.organizeImports": true
+          "source.organizeImports": "explicit"
         },
         "editor.formatOnSave": true,
         "editor.wordWrap": "bounded",
         "editor.wrappingIndent": "same",
-        "editor.wordWrapColumn": 60,
+        "editor.wordWrapColumn": 80,
+        "editor.detectIndentation": true,
         "editor.insertSpaces": false,
+        "editor.folding": false,
+        "editor.bracketPairColorization.enabled": false,
         "editor.smoothScrolling": true,
         "editor.glyphMargin": false,
+        "window.density.editorTabHeight": "compact",
+        "workbench.activityBar.location": "top",
+        "editor.accessibilitySupport": "off",
+        "window.commandCenter": false,
+        "workbench.layoutControl.enabled": false,
         "editor.fontSize": 14,
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.quickSuggestionsDelay": 0,
+        "html.completion.attributeDefaultValue": "singlequotes",
+        "editor.linkedEditing": true,
+        "html.autoClosingTags": true,
+        "javascript.autoClosingTags": true,
+        "typescript.autoClosingTags": true,
         "editor.lineHeight": 1.6,
         "editor.suggestSelection": "first",
         "editor.fontLigatures": true,
@@ -77,16 +92,46 @@
         "editor.scrollbar.vertical": "hidden",
         "editor.renderControlCharacters": false,
         "editor.cursorBlinking": "expand",
-        "editor.cursorStyle": "line",
+        "editor.cursorStyle": "line-thin",
         "editor.cursorWidth": 2,
-        "editor.cursorSmoothCaretAnimation": "on",
-        "editor.confirmDelete": false,
+        "editor.cursorSmoothCaretAnimation": "explicit",
+        "editor.tokenColorCustomizations": {
+          "textMateRules": [
+            {
+              "scope": [
+                "comment",
+                "entity.name.type.class",
+                "keyword",
+                "constant",
+                "storage.modifier",
+                "storage.type.class.js"
+              ],
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "scope": [
+                "invalid",
+                "keyword.operator",
+                "constant.numeric.css",
+                "keyword.other.unit.px.css",
+                "constant.numeric.decimal.js",
+                "constant.numeric.json"
+              ],
+              "settings": {
+                "fontStyle": ""
+              }
+            }
+          ]
+        },
+
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+        "editor.fontFamily": "Iosevka, Maple Mono, JetBrains Mono, Cascadia Code PL, IBM iScript REDGroup",
         "editor.renderWhitespace": "none",
         "editor.stickyScroll.enabled": true,
         "editor.showFoldingControls": "always",
-      
+
         // Prettier Settings
         "prettier.tabWidth": 2,
         "prettier.singleQuote": true,
@@ -96,24 +141,29 @@
         "prettier.arrowParens": "avoid",
         "prettier.printWidth": 100,
       
+        // Project Manager
+
+        "projectManager.git.baseFolders": ["$home/workspace"],
+        "projectManager.sortList": "Recent",
+
         // Emmet Settings
         "emmet.includeLanguages": {
-          "javascript": "javascriptreact"
+          "javascript": "javascriptreact",
+          "html": "html"
         },
         "emmet.triggerExpansionOnTab": true,
-        "emmet.showExpandedAbbreviation": "never",
-      
+
         // Explorer Settings
         "explorer.compactFolders": false,
         "explorer.enableDragAndDrop": false,
         "explorer.confirmDragAndDrop": false,
-      
+
         // Debug Settings
         "debug.toolBarLocation": "hidden",
         "debug.focusWindowOnBreak": false,
         "debug.showInlineBreakpointCandidates": false,
         "debug.showBreakpointsInOverviewRuler": false,
-      
+
         // Terminal Settings
         "terminal.integrated.profiles.windows": {
           "GitBash": {
@@ -121,7 +171,7 @@
           }
         },
         "terminal.integrated.defaultProfile.windows": "Git Bash",
-      
+
         // Language-Specific Settings
         "[javascript]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -138,7 +188,7 @@
         "[jsonc]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
-      
+
         // Other Settings
         "files.autoSave": "afterDelay",
         "json.schemas": [
@@ -149,7 +199,7 @@
         ],
         "security.workspace.trust.untrustedFiles": "open",
         "javascript.updateImportsOnFileMove.enabled": "always",
-      
+
         // CSpell Settings
         "cSpell.userWords": ["Показать", "Скрыть", "список"],
       
@@ -161,9 +211,7 @@
       
         // Workbench Settings
         "workbench.sideBar.location": "right",
-        "workbench.colorTheme": "Jetbrains Fleet",
-        "workbench.iconTheme": "material-icon-theme",
-        "workbench.activityBar.visible": false,
+        "workbench.iconTheme": "catppuccin-perfect-sequoia",
         "workbench.colorCustomizations": {},
         "workbench.productIconTheme": "el-vsc-v1-icons",
       
@@ -171,10 +219,10 @@
         "files.associations": {
           "*.scss": "tailwindcss",
           "*.module.scss": "tailwindcss",
-          "*.css": "css",
-          "*.module.css": "css"
+          "*.css": "tailwindcss",
+          "*.module.css": "tailwindcss"
         },
-      
+
         // CSS Variables Settings
         "cssVariables.lookupFiles": [
           "**/*.css",
@@ -183,12 +231,18 @@
           "**/*.less",
           "node_modules/open-props/open-props.min.css"
         ],
-      
+
         // Minimap Settings
         "editor.minimap.renderCharacters": false,
         "editor.minimap.size": "fit",
-              "editor.minimap.enabled": false
+        "editor.minimap.enabled": false,
+        "tabnine.experimentalAutoImports": true,
+        "explorer.confirmDelete": false,
+        "workbench.colorTheme": "Bearded Theme HC Minuit",
+        "terminal.integrated.fontFamily": "monospace",
+        "typescript.updateImportsOnFileMove.enabled": "always"
       }
+
 
 
 
