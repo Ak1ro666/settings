@@ -321,7 +321,265 @@
 	"zenMode.hideStatusBar": false
 	}
 
+# Мои сниппеты
 
+	{
+	"prettier": {
+		"prefix": "prettier",
+		"body": [
+			"{",
+			"	\"semi\": false,",
+			"	\"singleQuote\": true,",
+			"	\"jsxSingleQuote\": false,",
+			"	\"bracketSpacing\": true,",
+			"	\"trailingComma\": \"all\",",
+			"	\"printWidth\": 120,",
+			"	\"tabWidth\": 2,",
+			"	\"arrowParens\": \"always\",",
+			"	\"useTabs\": true,",
+			"	\"endOfLine\": \"lf\"",
+			"}"
+		],
+		"description": "prettier config"
+	},
+	"inter": {
+		"scope": "typescriptreact, typescript",
+		"prefix": "inter",
+		"body": ["interface I${TM_FILENAME_BASE} { ", "	${1}", "}"],
+		"description": "create a new interface"
+	},
+	"service": {
+		"scope": "javascript, typescript",
+		"prefix": "service",
+		"body": ["export const ${TM_FILENAME_BASE} = { ", "	${1}", "}"],
+		"description": "create a new service"
+	},
+	"tafce": {
+		"scope": "typescriptreact",
+		"prefix": "tafce",
+		"body": [
+			"import { FC } from 'react'",
+			"",
+			"const ${TM_FILENAME_BASE}: FC = () => {",
+			"  return <div>${1}${TM_FILENAME_BASE}</div>",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE}"
+		],
+		"description": "create a new typescript component"
+	},
+	"tafcei": {
+		"scope": "typescriptreact",
+		"prefix": "tafcei",
+		"body": [
+			"import { FC } from 'react'",
+			"",
+			"interface I${TM_FILENAME_BASE} {${1}}",
+			"",
+			"const ${TM_FILENAME_BASE}: FC<I${TM_FILENAME_BASE}> = ({${2}}) => {",
+			"  return <div>${3}${TM_FILENAME_BASE}</div>",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE}"
+		],
+		"description": "create a new typescript component with interface"
+	},
+	"tafcec": {
+		"scope": "typescriptreact",
+		"prefix": "tafcec",
+		"body": [
+			"import { FC, PropsWithChildren } from 'react'",
+			"",
+			"const ${TM_FILENAME_BASE}: FC<PropsWithChildren<unknown>> = () => {",
+			"  return <div>${1}${TM_FILENAME_BASE}</div>",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE}"
+		],
+		"description": "create a new hoc typescript component"
+	},
+	"nafce": {
+		"scope": "typescriptreact",
+		"prefix": "nafce",
+		"body": [
+			"import { FC } from 'react'",
+			"import { Text, View } from 'react-native'",
+			"",
+			"const ${TM_FILENAME_BASE}: FC = () => {",
+			" return (",
+			"  <View>",
+			"   <Text>${1}${TM_FILENAME_BASE}</Text>",
+			"  </View>",
+			"  )",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE}"
+		],
+		"description": "create a new react native typescript component"
+	},
+	"nafcec": {
+		"scope": "typescriptreact",
+		"prefix": "nafcec",
+		"body": [
+			"import { FC, PropsWithChildren } from 'react'",
+			"import { View } from 'react-native'",
+			"",
+			"const ${TM_FILENAME_BASE}: FC<PropsWithChildren<unknown>> = ({children}) => {",
+			"  return <View>${1}{children}</View>",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE}"
+		],
+		"description": "create a new react native HOC typescript component"
+	},
+	"tafcen": {
+		"scope": "typescriptreact",
+		"prefix": "tafcen",
+		"body": [
+			"import { NextPage } from 'next'",
+			"",
+			"const ${TM_FILENAME_BASE}Page: NextPage = () => {",
+			"  return <div>${1}${TM_FILENAME_BASE}</div>",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE}Page"
+		],
+		"description": "create a new next typescript page"
+	}
+	}
+
+
+
+#Мои бинды горячих клавиш
+
+		[
+	{
+		"key": "ctrl+alt+q",
+		"command": "extension.ecsstractor_port_runwithbemandcomments"
+	},
+	{
+		"key": "ctrl+alt+w",
+		"command": "extension.ecsstractor_port_runwithbem"
+	},
+	{
+		"key": "ctrl+s",
+		"command": "notebook.format",
+		"when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "-notebook.format",
+		"when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
+	},
+	{
+		"key": "ctrl+s",
+		"command": "notebook.formatCell",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "-notebook.formatCell",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+	},
+	{
+		"key": "ctrl+s",
+		"command": "editor.action.formatDocument.none",
+		"when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "-editor.action.formatDocument.none",
+		"when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+	},
+	{
+		"key": "ctrl+s",
+		"command": "editor.action.formatDocument",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "-editor.action.formatDocument",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+	},
+	{
+		"key": "ctrl+.",
+		"command": "turboConsoleLog.displayLogMessage"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.files.action.focusFilesExplorer",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "a",
+		"command": "explorer.newFile",
+		"when": "filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "shift+a",
+		"command": "explorer.newFolder",
+		"when": "filesExplorerFocus"
+	},
+	{
+		"key": "ctrl+.",
+		"command": "editor.action.codeAction"
+	},
+	{
+		"key": "r",
+		"command": "renameFile",
+		"when": "filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "c",
+		"command": "filesExplorer.copy",
+		"when": "filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "p",
+		"command": "filesExplorer.paste",
+		"when": "filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "d",
+		"command": "deleteFile",
+		"when": "filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "ctrl+alt+left",
+		"command": "workbench.action.focusLeftGroup"
+	},
+	{
+		"key": "ctrl+alt+right",
+		"command": "workbench.action.focusRightGroup"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "editor.action.revealDefinition",
+		"when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+	},
+	{
+		"key": "ctrl+tab",
+		"command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+		"when": "!activeEditorGroupEmpty"
+	},
+	{
+		"key": "ctrl+tab",
+		"command": "-workbench.action.quickOpenNavigateNextInEditorPicker",
+		"when": "inEditorsPicker && inQuickOpen"
+	},
+	{
+		"key": "ctrl+tab",
+		"command": "workbench.action.nextEditor"
+	},
+	{
+		"key": "ctrl+shift+tab",
+		"command": "workbench.action.previousEditor"
+	}
+	]
 
 
 
