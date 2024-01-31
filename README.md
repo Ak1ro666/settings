@@ -35,9 +35,20 @@
       Auto Close Tag - Автоматическое закрытия тегов,
       Auto Complete Tag - Автоматическое заверешени тегов,
       Auto Rename Tag - Автоматическое переименование тегов,
+      Auto Import - Автоматический импорт,
+      Code Spell Checker - Проверка ошибок,
+      colorize - Удобная подсветка цвета,
+      Duplicate action - Удаляет дубликаты экшенов,
+      CSS Variable Autocomplete - Авто импорт переменных из css,
+      ENV - Поддержка и форматирование файлов .env,
+      ESLint - Более строго смотрит за кодом,
+      Stylelint - Более строго смотрит за стилями,
+      TODO Highlist - Позволяет делать "TODO: Доделать рооутинг",
+      Error Lens - Подсветка и вывод ошибок в vs code,
       Backticks - Автосмена ковычек при вставки переменной в обычные ковычки '${}',
       Bootstrap IntelliSense - Подсказки bootstrap,
       Code Spell Cheker - Автоматическая проверка на грамматические ошибки,
+      Russian Code Spell Cheker - Автоматическая проверка на грамматические русские ошибки,
       eCsstractor for VSCode - Автоматическое копирование всех css тегов,
       Simple React Snippets - Подсказки для реакт,
       filesize - Размер файла,
@@ -50,9 +61,11 @@
       Prettier - Автоматическое форматирование кода,
       Project Manager - Показывает твои сохранённые проекты, быстрая навигация,
       Sass (.sass only) - Поддержка sass,
+      Path Autocomplete - Автоматическое вставка путей,
       Live Sass Compiller - Автоматическая компиляция кода из scss в css,
       Svg Preview - Показывает картинки вставленные в коде,
-      Tabnine - AI, которое подсказывает части кода.
+      Tabnine - AI, которое подсказывает части кода,
+      Vim - Поддержка написания кода в стиле vim.
 
 # Мои настройки settings.json
             {
