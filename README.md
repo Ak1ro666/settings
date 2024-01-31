@@ -56,250 +56,257 @@
 
 # Мои настройки settings.json
             {
-	      // Editor Settings
-	      "editor.snippetSuggestions": "top",
-      	"editor.tabSize": 2,
-	      "editor.codeActionsOnSave": {
-	      	"source.organizeImports": "explicit"
-	      },
-	      "editor.formatOnSave": true,
-	      "editor.wordWrap": "bounded",
-	      "workbench.colorTheme": "Bearded Theme HC Minuit",
-	      "editor.wrappingIndent": "same",
-	      "editor.wordWrapColumn": 80,
-	      "editor.detectIndentation": true,
-	      "editor.insertSpaces": false,
-	      "workbench.editor.tabSizing": "shrink",
-	      "workbench.startupEditor": "newUntitledFile",
-	      "editor.folding": false,
-	      "editor.bracketPairColorization.enabled": false,
-	      "editor.smoothScrolling": true,
-	      "editor.glyphMargin": false,
-	      "window.density.editorTabHeight": "compact",
-	      "workbench.activityBar.location": "top",
-	      "editor.accessibilitySupport": "off",
-	      "window.commandCenter": false,
-	      "workbench.layoutControl.enabled": false,
-	      "editor.fontSize": 16,
-	      "editor.lineHeight": 26,
-	      "editor.unicodeHighlight.ambiguousCharacters": false,
-	      "editor.quickSuggestionsDelay": 0,
-      	"html.completion.attributeDefaultValue": "singlequotes",
-	      "editor.linkedEditing": true,
-	      "html.autoClosingTags": true,
-      	"javascript.autoClosingTags": true,
-      	"typescript.autoClosingTags": true,
-	      "editor.suggestSelection": "first",
-	      "editor.fontLigatures": true,
-	      "editor.scrollbar.horizontal": "hidden",
-	      "editor.scrollbar.vertical": "hidden",
-	      "editor.renderControlCharacters": false,
-	      "editor.cursorBlinking": "expand",
-	      "editor.cursorStyle": "line-thin",
-	      "editor.cursorWidth": 2,
-	      "editor.cursorSmoothCaretAnimation": "explicit",
-      	"editor.tokenColorCustomizations": {
-	      	"textMateRules": [
-		      	{
-			      	"scope": [
-				      	"comment",
-					      "entity.name.type.class",
-					      "keyword",
-					      "constant",
-					      "storage.modifier",
-				      	"storage.type.class.js"
-				      ],
-				      "settings": {
-				      	"fontStyle": "italic"
-			      	}
-			      },
-		      	{
-				      "scope": [
-					      "invalid",
-					      "keyword.operator",
-				      	"constant.numeric.css",
-				      	"keyword.other.unit.px.css",
-					      "constant.numeric.decimal.js",
-				      	"constant.numeric.json"
-				      ],
-			      	"settings": {
-			      		"fontStyle": ""
-			      	}
-			      }
-		      ]
-      	},
-
-	      "editor.defaultFormatter": "esbenp.prettier-vscode",
-	      "editor.fontFamily": "Iosevka, Maple Mono, JetBrains Mono, Cascadia Code PL, IBM iScript REDGroup",
-	      "editor.renderWhitespace": "none",
-      	"editor.stickyScroll.enabled": true,
-      	"editor.showFoldingControls": "always",
-
-	      // Prettier Settings
-	      "prettier.tabWidth": 2,
-      	"prettier.useTabs": true,
-      	"prettier.singleQuote": true,
-	      "prettier.jsxSingleQuote": true,
-      	"prettier.trailingComma": "all",
-	      "prettier.semi": true,
-	      "prettier.bracketSameLine": true,
-	      "prettier.arrowParens": "avoid",
-	      "prettier.printWidth": 100,
-
-	      // Project Manager
-      
-	      "projectManager.git.baseFolders": ["$home/workspace"],
-	      "projectManager.sortList": "Recent",
-
-      	// Emmet Settings
-	      "emmet.includeLanguages": {
-	      	"javascript": "javascriptreact",
-	      	"html": "html"
-	      },
-	      "emmet.triggerExpansionOnTab": true,
-
-	      // Explorer Settings
-	      "explorer.compactFolders": false,
-	      "explorer.enableDragAndDrop": true,
-	      "explorer.confirmDragAndDrop": false,
-
-      	// Debug Settings
-      	"debug.toolBarLocation": "hidden",
-	      "debug.focusWindowOnBreak": false,
-      	"debug.showInlineBreakpointCandidates": false,
-	      "debug.showBreakpointsInOverviewRuler": false,
-
-	      // Terminal Settings
-	      "terminal.integrated.profiles.windows": {
-	      	"GitBash": {
-	      		"path": "D:/Git/bin/bash.exe"
-	      	}
-	      },
-	      "terminal.integrated.defaultProfile.windows": "Git Bash",
-
-	      // Language-Specific Settings
-	      "[javascript]": {
-	      	"editor.defaultFormatter": "esbenp.prettier-vscode"
-	      },
-      	"[css]": {
-	      	"editor.defaultFormatter": "esbenp.prettier-vscode"
-	      },
-	      "[html]": {
-	      	"editor.defaultFormatter": "esbenp.prettier-vscode"
-	      },
-      	"[scss]": {
-	      	"editor.defaultFormatter": "esbenp.prettier-vscode"
-	      },
-      	"[jsonc]": {
-	      	"editor.defaultFormatter": "esbenp.prettier-vscode"
-      	},
-
-	      // Other Settings
-	      "files.autoSave": "afterDelay",
-      	"json.schemas": [
-	      	{
-      			"fileMatch": ["/myfile"],
-	      		"url": "schemaURL"
-	      	}
-      	],
-	      "security.workspace.trust.untrustedFiles": "open",
-	      "javascript.updateImportsOnFileMove.enabled": "always",
-
-      	// CSpell Settings
-      	"cSpell.userWords": ["Показать", "Скрыть", "список"],
-
-	      // Live Server Settings
-	      "liveServer.settings.donotVerifyTags": true,
-
-	      // Update Settings
-	      "update.mode": "manual",
-
-	      // Workbench Settings
-      	"workbench.sideBar.location": "right",
-      	"workbench.iconTheme": "catppuccin-perfect-sequoia",
-      	"workbench.colorCustomizations": {},
-      	"workbench.productIconTheme": "el-vsc-v1-icons",
-
-	      // File Associations
-      	"files.associations": {
-	      	"*.scss": "tailwindcss",
-	      	"*.module.scss": "tailwindcss",
-	      	"*.css": "tailwindcss",
-	      	"*.module.css": "tailwindcss"
-	      },
-
-	      // CSS Variables Settings
-	      "cssVariables.lookupFiles": [
-	      	"**/*.css",
-	      	"**/*.scss",
-	      	"**/*.sass",
-	      	"**/*.less",
-	      	"node_modules/open-props/open-props.min.css"
-	      ],
-
-	      // Minimap Settings
-	      "editor.minimap.renderCharacters": false,
-	      "editor.minimap.size": "fit",
-	      "editor.minimap.enabled": false,
-      	"tabnine.experimentalAutoImports": true,
-	      "explorer.confirmDelete": false,
-	      "terminal.integrated.fontFamily": "Iosevka",
-	      "terminal.integrated.fontSize": 15,
-	      "terminal.integrated.tabs.enabled": false,
-	      "typescript.updateImportsOnFileMove.enabled": "always",
-
-	      //Breadcrumbs
-
-      	"breadcrumbs.icons": false,
-	      "breadcrumbs.showKeys": false,
-	      "breadcrumbs.showFiles": false,
-	      "breadcrumbs.symbolPath": "off",
-	      "breadcrumbs.showArrays": false,
-	      "breadcrumbs.showEvents": false,
-	      "breadcrumbs.showFields": false,
-	      "breadcrumbs.showClasses": false,
-	      "breadcrumbs.showMethods": false,
-	      "breadcrumbs.showBooleans": false,
-	      "breadcrumbs.showFunctions": false,
-	      "breadcrumbs.showConstants": false,
-	      "breadcrumbs.showEnumMembers": false,
-	      "breadcrumbs.showConstructors": false,
-
-	      //JS & TS
-	      "typescript.preferences.quoteStyle": "single",
-	      "javascript.preferences.quoteStyle": "single",
-	      "javascript.format.semicolons": "remove",
-	      "typescript.format.semicolons": "remove",
-	      // Использование экспериментальных декораторов в JS/TS
-	      "js/ts.implicitProjectConfig.experimentalDecorators": true,
-
-	      "files.exclude": {
-	      	"**/.expo": true,
-	      	"**/.expo-shared": true,
-	      	"**/.idea": true,
-	      	"**/.next": true,
-	      	"**/.nuxt": true,
-	      	"**/dist": true
-	      },
-
-	      // Язык по умолчанию для новых файлов
-	      "files.defaultLanguage": "plaintext",
-      	// Игнорировать пробелы при сравнении в редакторе diff
-      	"diffEditor.ignoreTrimWhitespace": false,
-	      // Открытие не доверенных файлов без предупреждения
-	      "security.workspace.trust.untrustedFiles": "open",
-	      // Автоматически изменять предложение автозаполнения на основе предыдущего выбора
-	      "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	      // Подтверждение перед закрытием окна только при использовании клавиатуры
-	      "window.confirmBeforeClose": "keyboardOnly",
-	      // Не открывать репозиторий в родительских папках
-	      "git.openRepositoryInParentFolders": "never",
-      
-	      // Поведение при обнаружении нескольких определений
-	      "editor.gotoLocation.multipleDefinitions": "goto",
-	      // Скрыть подсказку в пустом редакторе
-	      "workbench.editor.empty.hint": "hidden"
-      }
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// Language-Specific Settings
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[plaintext]": {
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[tailwindcss]": {},
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showConstructors": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.symbolPath": "off",
+	"cSpell.language": "en,ru",
+	// CSpell Settings
+	"cSpell.userWords": [
+		"Показать",
+		"Скрыть",
+		"список",
+		"Странца",
+		"antd",
+		"classix",
+		"Geners",
+		"NOTFOUNDPAGE",
+		"Parens",
+		"reduxjs",
+		"stylelint",
+		"tailwindcss",
+		"tanstack",
+		"trivago"
+	],
+	// CSS Variables Settings
+	"cssVariables.lookupFiles": [
+		"**/*.css",
+		"**/*.scss",
+		"**/*.sass",
+		"**/*.less",
+		"node_modules/open-props/open-props.min.css"
+	],
+	"debug.focusWindowOnBreak": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+	"debug.showInlineBreakpointCandidates": false,
+	// Debug Settings
+	"debug.toolBarLocation": "hidden",
+	// Игнорировать пробелы при сравнении в редакторе diff
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.accessibilitySupport": "off",
+	"editor.bracketPairColorization.enabled": false,
+	"editor.codeActionsOnSave": {
+		"source.addMissingImports": "explicit",
+		"source.organizeImports": "explicit"
+	},
+	"editor.cursorBlinking": "expand",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 2,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": true,
+	"editor.folding": false,
+	"editor.fontFamily": "Cascadia Code, Iosevka, Maple Mono, JetBrains Mono, Cascadia Code PL, IBM iScript REDGroup",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 16,
+	"editor.formatOnSave": true,
+	"editor.glyphMargin": false,
+	// Поведение при обнаружении нескольких определений
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.insertSpaces": false,
+	"editor.lineHeight": 26,
+	// Editor Settings
+	"editor.lineNumbers": "relative",
+	"editor.linkedEditing": true,
+	"editor.minimap.enabled": false,
+	// Minimap Settings
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.size": "fit",
+	"editor.quickSuggestionsDelay": 0,
+	"editor.renderControlCharacters": false,
+	"editor.renderWhitespace": "none",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.showFoldingControls": "always",
+	"editor.smoothScrolling": true,
+	"editor.snippetSuggestions": "top",
+	"editor.stickyScroll.enabled": true,
+	"editor.suggest.insertMode": "replace",
+	"editor.suggestSelection": "first",
+	"editor.tabSize": 2,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"comment",
+					"entity.name.type.class",
+					"keyword",
+					"constant",
+					"storage.modifier",
+					"storage.type.class.js"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": [
+					"invalid",
+					"keyword.operator",
+					"constant.numeric.css",
+					"keyword.other.unit.px.css",
+					"constant.numeric.decimal.js",
+					"constant.numeric.json"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.wordWrap": "bounded",
+	"editor.wordWrapColumn": 80,
+	"editor.wrappingIndent": "same",
+	// Emmet Settings
+	"emmet.includeLanguages": {
+		"html": "html",
+		"javascript": "javascriptreact"
+	},
+	"emmet.triggerExpansionOnTab": true,
+	// Explorer Settings
+	"explorer.compactFolders": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.enableDragAndDrop": true,
+	"extensions.autoUpdate": "onlyEnabledExtensions",
+	"extensions.ignoreRecommendations": true,
+	// File Associations
+	"files.associations": {
+		"*.css": "tailwindcss",
+		"*.module.css": "tailwindcss",
+		"*.module.scss": "scss",
+		"*.scss": "scss"
+	},
+	// Other Settings
+	"files.autoSave": "afterDelay",
+	// Язык по умолчанию для новых файлов
+	"files.defaultLanguage": "plaintext",
+	// Не открывать репозиторий в родительских папках
+	"git.openRepositoryInParentFolders": "never",
+	"glassit.alpha": 240,
+	"html.autoClosingTags": true,
+	"html.completion.attributeDefaultValue": "singlequotes",
+	"javascript.autoClosingTags": true,
+	"javascript.format.semicolons": "remove",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	// Использование экспериментальных декораторов в JS/TS
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+	"json.schemas": [
+		{
+			"fileMatch": ["/myfile"],
+			"url": "schemaURL"
+		}
+	],
+	"prettier.arrowParens": "always",
+	"prettier.bracketSameLine": true,
+	"prettier.bracketSpacing": true,
+	"prettier.endOfLine": "lf",
+	"prettier.jsxSingleQuote": false,
+	"prettier.printWidth": 120,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 2,
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true,
+	// Prettier Settings
+	// Project Manager
+	"projectManager.git.baseFolders": ["$home/workspace"],
+	"projectManager.sortList": "Recent",
+	"security.workspace.trust.untrustedFiles": "open",
+	"sortJSON.orderOverride": ["name", "version", "description"],
+	"sortJSON.orderUnderride": ["dependencies", "devDependencies"],
+	"symbols.hidesExplorerArrows": false,
+	"tabnine.experimentalAutoImports": true,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.fontFamily": "Iosevka",
+	"terminal.integrated.fontSize": 15,
+	// Terminal Settings
+	"terminal.integrated.profiles.windows": {
+		"GitBash": {
+			"path": "D:/Git/bin/bash.exe"
+		}
+	},
+	"terminal.integrated.tabs.enabled": false,
+	"typescript.autoClosingTags": true,
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.format.semicolons": "remove",
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	//JS & TS
+	"typescript.preferences.quoteStyle": "single",
+	"typescript.tsdk": "./node_modules/typescript/lib",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	// Update Settings
+	"update.mode": "manual",
+	// Автоматически изменять предложение автозаполнения на основе предыдущего выбора
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"window.commandCenter": false,
+	"window.density.editorTabHeight": "compact",
+	"window.menuBarVisibility": "compact",
+	"window.titleBarStyle": "custom",
+	"workbench.activityBar.location": "top",
+	"workbench.colorCustomizations": {},
+	"workbench.colorTheme": "Bearded Theme Vivid Black",
+	// Скрыть подсказку в пустом редакторе
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.layoutControl.enabled": false,
+	"workbench.productIconTheme": "el-vsc-v1-icons",
+	// Workbench Settings
+	"workbench.sideBar.location": "left",
+	"workbench.startupEditor": "newUntitledFile",
+	"zenMode.centerLayout": true,
+	// zenMode
+	"zenMode.fullScreen": true,
+	"zenMode.hideLineNumbers": false,
+	"zenMode.hideStatusBar": false
+}
 
 
 
