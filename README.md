@@ -306,7 +306,7 @@
 	"zenMode.fullScreen": true,
 	"zenMode.hideLineNumbers": false,
 	"zenMode.hideStatusBar": false
-}
+	}
 
 
 
