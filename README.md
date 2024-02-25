@@ -6,7 +6,10 @@
 
 # Мои шрифт: 
       FiraCode,
-      JetBrains.
+      Iosevka,
+      Cascadia Code,
+      Maple Mono,
+      JetBrains Mono.
 
 # Нужные приложения в работе: 
       Focus To-Do(Таймер помодоро),
@@ -25,9 +28,12 @@
 # Мои любимые темы и иконки:
       Bearded Theme Vivid Black,
       Tol,
-      soft sight,
-      mokka,
-      Hacker Theme,
+      Moegi Theme,
+      Moonlight,
+      LunarVim Dark Theme,
+      Kanagawa,
+      Gruvbox,
+      Popping and Locking,
       Andromeda,
       Icons.
 
@@ -84,7 +90,8 @@
 	},
 	"[plaintext]": {
 		"editor.unicodeHighlight.ambiguousCharacters": false,
-		"editor.unicodeHighlight.invisibleCharacters": false
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"editor.defaultFormatter": "lkrms.inifmt"
 	},
 	"[prisma]": {
 		"editor.defaultFormatter": "Prisma.prisma"
@@ -110,20 +117,75 @@
 	"cSpell.language": "en,ru",
 	// CSpell Settings
 	"cSpell.userWords": [
+		"автозаполнения",
+		"ДЕБАГИНГ",
 		"Показать",
 		"Скрыть",
 		"список",
 		"Странца",
+		"Сodersbud",
+		"ТУДУШЕК",
+		"ТУДУШКА",
+		"akiro",
 		"antd",
+		"Antonette",
+		"ATPS",
+		"autodocs",
+		"axios",
+		"Bauch",
+		"Cadian",
+		"camelcase",
+		"Cascadia",
+		"catppuccin",
 		"classix",
+		"clsx",
+		"codeium",
+		"Codersbud",
+		"Crist",
+		"Crona",
+		"Deckow",
+		"esbenp",
+		"flowbite",
 		"Geners",
+		"glassit",
+		"Gwenborough",
+		"inifmt",
+		"Iosevka",
+		"Kenziehaven",
+		"Kulas",
+		"languagedetector",
+		"linebreak",
+		"lkrms",
+		"lucide",
+		"Miracode",
+		"Moegi",
 		"NOTFOUNDPAGE",
 		"Parens",
+		"pmmmwh",
 		"reduxjs",
+		"Romaguera",
+		"RTPS",
+		"schemapack",
+		"scminput",
+		"singlequotes",
+		"sonsolas",
+		"strapi",
 		"stylelint",
+		"svgr",
+		"synergize",
+		"tabnine",
 		"tailwindcss",
 		"tanstack",
-		"trivago"
+		"testid",
+		"todos",
+		"trivago",
+		"Underride",
+		"unmocked",
+		"vitetest",
+		"vsintellicode",
+		"Wisokyburgh",
+		"xaxis",
+		"zipcode"
 	],
 	// CSS Variables Settings
 	"cssVariables.lookupFiles": [
@@ -136,6 +198,7 @@
 	"debug.focusWindowOnBreak": false,
 	"debug.showBreakpointsInOverviewRuler": false,
 	"debug.showInlineBreakpointCandidates": false,
+	// EsLint
 	// Debug Settings
 	"debug.toolBarLocation": "hidden",
 	// Игнорировать пробелы при сравнении в редакторе diff
@@ -144,7 +207,8 @@
 	"editor.bracketPairColorization.enabled": false,
 	"editor.codeActionsOnSave": {
 		"source.addMissingImports": "explicit",
-		"source.organizeImports": "explicit"
+		"source.organizeImports": "explicit",
+		"source.fixAll.eslint": "explicit"
 	},
 	"editor.cursorBlinking": "expand",
 	"editor.cursorSmoothCaretAnimation": "explicit",
@@ -153,7 +217,7 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.detectIndentation": true,
 	"editor.folding": false,
-	"editor.fontFamily": "Cascadia Code, Iosevka, Maple Mono, JetBrains Mono, Cascadia Code PL, IBM iScript REDGroup",
+	"editor.fontFamily": "Iosevka, JetBrains Mono, Cascadia Code, Cascadia Code PL, Maple Mono, IBM iScript REDGroup",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 16,
 	"editor.formatOnSave": true,
@@ -163,7 +227,7 @@
 	"editor.insertSpaces": false,
 	"editor.lineHeight": 26,
 	// Editor Settings
-	"editor.lineNumbers": "relative",
+	"editor.lineNumbers": "on",
 	"editor.linkedEditing": true,
 	"editor.minimap.enabled": false,
 	// Minimap Settings
@@ -171,7 +235,7 @@
 	"editor.minimap.size": "fit",
 	"editor.quickSuggestionsDelay": 0,
 	"editor.renderControlCharacters": false,
-	"editor.renderWhitespace": "none",
+	"editor.renderWhitespace": "all",
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.vertical": "hidden",
 	"editor.showFoldingControls": "always",
@@ -230,13 +294,13 @@
 	"extensions.ignoreRecommendations": true,
 	// File Associations
 	"files.associations": {
-		"*.css": "tailwindcss",
+		"*.css": "css",
 		"*.module.css": "tailwindcss",
-		"*.module.scss": "scss",
-		"*.scss": "scss"
+		"*.module.scss": "tailwindcss",
+		"*.scss": "tailwindcss"
 	},
 	// Other Settings
-	"files.autoSave": "afterDelay",
+	"files.autoSave": "onFocusChange",
 	// Язык по умолчанию для новых файлов
 	"files.defaultLanguage": "plaintext",
 	// Не открывать репозиторий в родительских папках
@@ -256,13 +320,13 @@
 			"url": "schemaURL"
 		}
 	],
-	"prettier.arrowParens": "always",
+	"prettier.arrowParens": "avoid",
 	"prettier.bracketSameLine": true,
 	"prettier.bracketSpacing": true,
-	"prettier.endOfLine": "lf",
+	"prettier.endOfLine": "crlf",
 	"prettier.jsxSingleQuote": false,
 	"prettier.printWidth": 120,
-	"prettier.semi": false,
+	"prettier.semi": true,
 	"prettier.singleQuote": true,
 	"prettier.tabWidth": 2,
 	"prettier.trailingComma": "all",
@@ -300,15 +364,12 @@
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"window.commandCenter": false,
 	"window.density.editorTabHeight": "compact",
-	"window.menuBarVisibility": "compact",
 	"window.titleBarStyle": "custom",
-	"workbench.activityBar.location": "top",
 	"workbench.colorCustomizations": {},
-	"workbench.colorTheme": "Bearded Theme Vivid Black",
 	// Скрыть подсказку в пустом редакторе
 	"workbench.editor.empty.hint": "hidden",
 	"workbench.editor.tabSizing": "shrink",
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.iconTheme": "symbols",
 	"workbench.layoutControl.enabled": false,
 	"workbench.productIconTheme": "el-vsc-v1-icons",
 	// Workbench Settings
@@ -316,10 +377,41 @@
 	"workbench.startupEditor": "newUntitledFile",
 	"zenMode.centerLayout": true,
 	// zenMode
-	"zenMode.fullScreen": true,
+	"zenMode.fullScreen": false,
 	"zenMode.hideLineNumbers": false,
-	"zenMode.hideStatusBar": false
+	"zenMode.hideStatusBar": false,
+	"githubPullRequests.queries": [
+		{
+			"label": "Ожидание проверки",
+			"query": "is:open review-requested:${user}"
+		},
+		{
+			"label": "Назначено мне",
+			"query": "is:open assignee:${user}"
+		},
+		{
+			"label": "Созданные мной",
+			"query": "add babel and configure webpack and add i18n"
+		}
+	],
+	"git.confirmSync": false,
+	"github.copilot.enable": {
+		"plaintext": "true",
+		"markdown": "true",
+		"scminput": "true"
+	},
+	"CodeGPT.apiKey": "CodeGPT Plus Beta",
+	"workbench.activityBar.location": "top",
+	"prettier.requireConfig": true,
+	"material-icon-theme.folders.theme": "none",
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"git.enableSmartCommit": true,
+	"codeium.enableCodeLens": false,
+	"workbench.colorTheme": "Popping and Locking"
 	}
+
 
 # Мои сниппеты
 
@@ -328,16 +420,16 @@
 		"prefix": "prettier",
 		"body": [
 			"{",
-			"	\"semi\": false,",
+			"	\"semi\": true,",
 			"	\"singleQuote\": true,",
 			"	\"jsxSingleQuote\": false,",
 			"	\"bracketSpacing\": true,",
 			"	\"trailingComma\": \"all\",",
 			"	\"printWidth\": 120,",
 			"	\"tabWidth\": 2,",
-			"	\"arrowParens\": \"always\",",
+			"	\"arrowParens\": \"avoid\",",
 			"	\"useTabs\": true,",
-			"	\"endOfLine\": \"lf\"",
+			"	\"endOfLine\": \"crlf\"",
 			"}"
 		],
 		"description": "prettier config"
@@ -417,6 +509,14 @@
 		],
 		"description": "create a new react native typescript component"
 	},
+ 	"Print to console": {
+	 	"scope": "typescriptreact,javascriptreact",
+	 	"prefix": "imsc",
+	 	"body": [
+	 		"import styles from './${TM_FILENAME_BASE}.module.scss'",
+	 	],
+	 	"description": "Import module scss in React component"
+	 },
 	"nafcec": {
 		"scope": "typescriptreact",
 		"prefix": "nafcec",
@@ -450,9 +550,10 @@
 
 
 
+
 # Мои бинды горячих клавиш
 
-		[
+		[ 
 	{
 		"key": "ctrl+alt+q",
 		"command": "extension.ecsstractor_port_runwithbemandcomments"
@@ -578,7 +679,8 @@
 	{
 		"key": "ctrl+shift+tab",
 		"command": "workbench.action.previousEditor"
-	}
+	},
+
 	]
 
 
