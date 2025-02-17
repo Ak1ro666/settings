@@ -74,343 +74,168 @@
       Vim - Поддержка написания кода в стиле vim.
 
 # Мои настройки settings.json
-            {
-	"[css]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	// Language-Specific Settings
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[plaintext]": {
-		"editor.unicodeHighlight.ambiguousCharacters": false,
-		"editor.unicodeHighlight.invisibleCharacters": false,
-		"editor.defaultFormatter": "lkrms.inifmt"
-	},
-	"[prisma]": {
-		"editor.defaultFormatter": "Prisma.prisma"
-	},
-	"[scss]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[tailwindcss]": {},
-	"breadcrumbs.icons": false,
-	"breadcrumbs.showArrays": false,
-	"breadcrumbs.showBooleans": false,
-	"breadcrumbs.showClasses": false,
-	"breadcrumbs.showConstants": false,
-	"breadcrumbs.showConstructors": false,
-	"breadcrumbs.showEnumMembers": false,
-	"breadcrumbs.showEvents": false,
-	"breadcrumbs.showFields": false,
-	"breadcrumbs.showFiles": false,
-	"breadcrumbs.showFunctions": false,
-	"breadcrumbs.showKeys": false,
-	"breadcrumbs.showMethods": false,
-	"breadcrumbs.symbolPath": "off",
-	"cSpell.language": "en,ru",
-	// CSpell Settings
-	"cSpell.userWords": [
-		"автозаполнения",
-		"ДЕБАГИНГ",
-		"Показать",
-		"Скрыть",
-		"список",
-		"Странца",
-		"Сodersbud",
-		"ТУДУШЕК",
-		"ТУДУШКА",
-		"akiro",
-		"antd",
-		"Antonette",
-		"ATPS",
-		"autodocs",
-		"axios",
-		"Bauch",
-		"Cadian",
-		"camelcase",
-		"Cascadia",
-		"catppuccin",
-		"classix",
-		"clsx",
-		"codeium",
-		"Codersbud",
-		"Crist",
-		"Crona",
-		"Deckow",
-		"esbenp",
-		"flowbite",
-		"Geners",
-		"glassit",
-		"Gwenborough",
-		"inifmt",
-		"Iosevka",
-		"Kenziehaven",
-		"Kulas",
-		"languagedetector",
-		"linebreak",
-		"lkrms",
-		"lucide",
-		"Miracode",
-		"Moegi",
-		"NOTFOUNDPAGE",
-		"Parens",
-		"pmmmwh",
-		"reduxjs",
-		"Romaguera",
-		"RTPS",
-		"schemapack",
-		"scminput",
-		"singlequotes",
-		"sonsolas",
-		"strapi",
-		"stylelint",
-		"svgr",
-		"synergize",
-		"tabnine",
-		"tailwindcss",
-		"tanstack",
-		"testid",
-		"todos",
-		"trivago",
-		"Underride",
-		"unmocked",
-		"vitetest",
-		"vsintellicode",
-		"Wisokyburgh",
-		"xaxis",
-		"zipcode"
-	],
-	// CSS Variables Settings
-	"cssVariables.lookupFiles": [
-		"**/*.css",
-		"**/*.scss",
-		"**/*.sass",
-		"**/*.less",
-		"node_modules/open-props/open-props.min.css"
-	],
-	"debug.focusWindowOnBreak": false,
-	"debug.showBreakpointsInOverviewRuler": false,
-	"debug.showInlineBreakpointCandidates": false,
-	// EsLint
-	// Debug Settings
-	"debug.toolBarLocation": "hidden",
-	// Игнорировать пробелы при сравнении в редакторе diff
-	"diffEditor.ignoreTrimWhitespace": false,
-	"editor.accessibilitySupport": "off",
-	"editor.bracketPairColorization.enabled": false,
-	"editor.codeActionsOnSave": {
-		"source.addMissingImports": "explicit",
-		"source.organizeImports": "explicit",
-		"source.fixAll.eslint": "explicit"
-	},
-	"editor.cursorBlinking": "expand",
-	"editor.cursorSmoothCaretAnimation": "explicit",
-	"editor.cursorStyle": "line",
-	"editor.cursorWidth": 2,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.detectIndentation": true,
-	"editor.folding": false,
-	"editor.fontFamily": "Iosevka, JetBrains Mono, Cascadia Code, Cascadia Code PL, Maple Mono, IBM iScript REDGroup",
-	"editor.fontLigatures": true,
-	"editor.fontSize": 16,
-	"editor.formatOnSave": true,
-	"editor.glyphMargin": false,
-	// Поведение при обнаружении нескольких определений
-	"editor.gotoLocation.multipleDefinitions": "goto",
-	"editor.insertSpaces": false,
-	"editor.lineHeight": 26,
-	// Editor Settings
-	"editor.lineNumbers": "on",
-	"editor.linkedEditing": true,
-	"editor.minimap.enabled": false,
-	// Minimap Settings
-	"editor.minimap.renderCharacters": false,
-	"editor.minimap.size": "fit",
-	"editor.quickSuggestionsDelay": 0,
-	"editor.renderControlCharacters": false,
-	"editor.renderWhitespace": "all",
-	"editor.scrollbar.horizontal": "hidden",
-	"editor.scrollbar.vertical": "hidden",
-	"editor.showFoldingControls": "always",
-	"editor.smoothScrolling": true,
-	"editor.snippetSuggestions": "top",
-	"editor.stickyScroll.enabled": true,
-	"editor.suggest.insertMode": "replace",
-	"editor.suggestSelection": "first",
-	"editor.tabSize": 2,
-	"editor.tokenColorCustomizations": {
-		"textMateRules": [
-			{
-				"scope": [
-					"comment",
-					"entity.name.type.class",
-					"keyword",
-					"constant",
-					"storage.modifier",
-					"storage.type.class.js"
-				],
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"scope": [
-					"invalid",
-					"keyword.operator",
-					"constant.numeric.css",
-					"keyword.other.unit.px.css",
-					"constant.numeric.decimal.js",
-					"constant.numeric.json"
-				],
-				"settings": {
-					"fontStyle": ""
-				}
-			}
-		]
-	},
-	"editor.unicodeHighlight.ambiguousCharacters": false,
-	"editor.wordWrap": "bounded",
-	"editor.wordWrapColumn": 80,
-	"editor.wrappingIndent": "same",
-	// Emmet Settings
-	"emmet.includeLanguages": {
-		"html": "html",
-		"javascript": "javascriptreact"
-	},
-	"emmet.triggerExpansionOnTab": true,
-	// Explorer Settings
-	"explorer.compactFolders": false,
-	"explorer.confirmDelete": false,
-	"explorer.confirmDragAndDrop": false,
-	"explorer.enableDragAndDrop": true,
-	"extensions.autoUpdate": "onlyEnabledExtensions",
-	"extensions.ignoreRecommendations": true,
-	// File Associations
-	"files.associations": {
-		"*.css": "css",
-		"*.module.css": "tailwindcss",
-		"*.module.scss": "tailwindcss",
-		"*.scss": "tailwindcss"
-	},
-	// Other Settings
-	"files.autoSave": "onFocusChange",
-	// Язык по умолчанию для новых файлов
-	"files.defaultLanguage": "plaintext",
-	// Не открывать репозиторий в родительских папках
-	"git.openRepositoryInParentFolders": "never",
-	"glassit.alpha": 240,
-	"html.autoClosingTags": true,
-	"html.completion.attributeDefaultValue": "singlequotes",
-	"javascript.autoClosingTags": true,
-	"javascript.format.semicolons": "remove",
-	"javascript.preferences.quoteStyle": "single",
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	// Использование экспериментальных декораторов в JS/TS
-	"js/ts.implicitProjectConfig.experimentalDecorators": true,
-	"json.schemas": [
-		{
-			"fileMatch": ["/myfile"],
-			"url": "schemaURL"
-		}
-	],
-	"prettier.arrowParens": "avoid",
-	"prettier.bracketSameLine": true,
-	"prettier.bracketSpacing": true,
-	"prettier.endOfLine": "crlf",
-	"prettier.jsxSingleQuote": false,
-	"prettier.printWidth": 120,
-	"prettier.semi": true,
-	"prettier.singleQuote": true,
-	"prettier.tabWidth": 2,
-	"prettier.trailingComma": "all",
-	"prettier.useTabs": true,
-	// Prettier Settings
-	// Project Manager
-	"projectManager.git.baseFolders": ["$home/workspace"],
-	"projectManager.sortList": "Recent",
-	"security.workspace.trust.untrustedFiles": "open",
-	"sortJSON.orderOverride": ["name", "version", "description"],
-	"sortJSON.orderUnderride": ["dependencies", "devDependencies"],
-	"symbols.hidesExplorerArrows": false,
-	"tabnine.experimentalAutoImports": true,
-	"terminal.integrated.defaultProfile.windows": "Git Bash",
-	"terminal.integrated.fontFamily": "Iosevka",
-	"terminal.integrated.fontSize": 15,
-	// Terminal Settings
-	"terminal.integrated.profiles.windows": {
-		"GitBash": {
-			"path": "D:/Git/bin/bash.exe"
-		}
-	},
-	"terminal.integrated.tabs.enabled": false,
-	"typescript.autoClosingTags": true,
-	"typescript.enablePromptUseWorkspaceTsdk": true,
-	"typescript.format.semicolons": "remove",
-	"typescript.preferences.importModuleSpecifier": "non-relative",
-	//JS & TS
-	"typescript.preferences.quoteStyle": "single",
-	"typescript.tsdk": "./node_modules/typescript/lib",
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	// Update Settings
-	"update.mode": "manual",
-	// Автоматически изменять предложение автозаполнения на основе предыдущего выбора
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"window.commandCenter": false,
-	"window.density.editorTabHeight": "compact",
-	"window.titleBarStyle": "custom",
-	"workbench.colorCustomizations": {},
-	// Скрыть подсказку в пустом редакторе
-	"workbench.editor.empty.hint": "hidden",
-	"workbench.editor.tabSizing": "shrink",
-	"workbench.iconTheme": "symbols",
-	"workbench.layoutControl.enabled": false,
-	"workbench.productIconTheme": "el-vsc-v1-icons",
-	// Workbench Settings
-	"workbench.sideBar.location": "left",
-	"workbench.startupEditor": "newUntitledFile",
-	"zenMode.centerLayout": true,
-	// zenMode
-	"zenMode.fullScreen": false,
-	"zenMode.hideLineNumbers": false,
-	"zenMode.hideStatusBar": false,
-	"githubPullRequests.queries": [
-		{
-			"label": "Ожидание проверки",
-			"query": "is:open review-requested:${user}"
-		},
-		{
-			"label": "Назначено мне",
-			"query": "is:open assignee:${user}"
-		},
-		{
-			"label": "Созданные мной",
-			"query": "add babel and configure webpack and add i18n"
-		}
-	],
-	"git.confirmSync": false,
-	"github.copilot.enable": {
-		"plaintext": "true",
-		"markdown": "true",
-		"scminput": "true"
-	},
-	"CodeGPT.apiKey": "CodeGPT Plus Beta",
-	"workbench.activityBar.location": "top",
-	"prettier.requireConfig": true,
-	"material-icon-theme.folders.theme": "none",
-	"[javascriptreact]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"git.enableSmartCommit": true,
-	"codeium.enableCodeLens": false,
-	"workbench.colorTheme": "Popping and Locking"
-	}
+           
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.activityBar.location": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.startupEditor": "none",
+  "window.menuBarVisibility": "toggle",
+  "workbench.tips.enabled": false,
+  "window.title": "ㅤ",
+  "editor.minimap.enabled": false,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.guides.indentation": false,
+  "windsurf.cascadeOpenOnReload": false,
+  "editor.renderWhitespace": "none",
+  "editor.lightbulb.enabled": "off",
+  "editor.showFoldingControls": "never",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "workbench.tree.enableStickyScroll": false,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "JetBrains Mono, Maple Mono",
+  "editor.fontSize": 16.5,
+  "editor.lineHeight": 21.5,
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "files.insertFinalNewline": true,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay",
+  "window.titleBarStyle": "native",
+  "editor.glyphMargin": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.wordWrap": "bounded",
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.bracketSpacing": true,
+  "prettier.trailingComma": "all",
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 4,
+  "prettier.arrowParens": "always",
+  "prettier.printWidth": 100,
+  "prettier.endOfLine": "lf",
+  "editor.wrappingIndent": "same",
+  "files.eol": "\n",
+  "editor.wordWrapColumn": 80,
+  "editor.linkedEditing": true,
+  "editor.quickSuggestionsDelay": 0,
+  // terminal
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "E:\\Programms\\Git\\bin\\bash.exe",
+      "icon": "terminal-bash"
+    },
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    }
+  },
+  "terminal.integrated.fontFamily": "JetBrains Mono, Dank Mono",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.cursorStyle": "line",
+  // linters
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "prettier.useEditorConfig": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.useFlatConfig": true,
+  "css.validate": true,
+  "scss.validate": true,
+  "stylelint.enable": true,
+  "stylelint.validate": [
+    "css",
+    "scss"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // apc
+  "apc.font.family": "JetBrains Mono",
+  "window.customTitleBarVisibility": "auto",
+  "window.density.editorTabHeight": "compact",
+  "notebook.compactView": true,
+  "apc.menubar.compact": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  // tailwind
+  "files.associations": {
+    "*.css": "css"
+    // "*.scss": "tailwindcss"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.graph.showRemoteNames": true,
+  "go.inlayHints.parameterNames": true,
+  "html-to-css-autocompletion.folderNamesToBeExcluded": [
+    "node_modules"
+  ],
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "gitlens.defaultDateLocale": "ru-RU",
+  "workbench.colorTheme": "PurpleSchool Theme",
+  "windsurf.autoExecutionPolicy": "off",
+  "php.validate.executablePath": "C:\\Program Files\\php-8.4.3\\php.exe",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "windsurf.explainAndFixInCurrentConversation": true,
+}
 
 
 # Мои сниппеты
