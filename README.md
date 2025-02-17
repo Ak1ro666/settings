@@ -68,70 +68,69 @@
 
 # Мои настройки settings.json
            
-	{
-  	"workbench.iconTheme": "material-icon-theme",
+				{
+	  "workbench.iconTheme": "material-icon-theme",
   	"diffEditor.ignoreTrimWhitespace": true,
   	"material-icon-theme.hidesExplorerArrows": true,
   	"workbench.tree.renderIndentGuides": "none",
   	"workbench.activityBar.location": "hidden",
-  	"workbench.layoutControl.enabled": false,
   	"workbench.editor.empty.hint": "hidden",
   	"workbench.startupEditor": "none",
   	"window.menuBarVisibility": "toggle",
   	"workbench.tips.enabled": false,
   	"window.title": "ㅤ",
   	"editor.minimap.enabled": false,
-  "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.guides.indentation": false,
-  "windsurf.cascadeOpenOnReload": false,
-  "editor.renderWhitespace": "none",
-  "editor.lightbulb.enabled": "off",
-  "editor.showFoldingControls": "never",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.overviewRulerBorder": false,
-  "editor.cursorStyle": "line-thin",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorBlinking": "expand",
-  "workbench.tree.enableStickyScroll": false,
-  "editor.smoothScrolling": true,
-  "editor.stickyScroll.enabled": false,
-  "editor.stickyScroll.scrollWithEditor": false,
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "editor.fontFamily": "JetBrains Mono, Maple Mono",
-  "editor.fontSize": 16.5,
-  "editor.lineHeight": 21.5,
-  "editor.fontWeight": "400",
-  "editor.fontLigatures": true,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "explorer.compactFolders": false,
-  "files.insertFinalNewline": true,
-  "extensions.ignoreRecommendations": true,
-  "files.autoSave": "afterDelay",
-  "window.titleBarStyle": "native",
-  "editor.glyphMargin": false,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.accessibilitySupport": "off",
-  "editor.wordWrap": "bounded",
-  "prettier.semi": true,
-  "prettier.singleQuote": true,
-  "prettier.bracketSpacing": true,
-  "prettier.trailingComma": "all",
-  "prettier.useTabs": false,
-  "prettier.tabWidth": 4,
-  "prettier.arrowParens": "always",
-  "prettier.printWidth": 100,
-  "prettier.endOfLine": "lf",
-  "editor.wrappingIndent": "same",
-  "files.eol": "\n",
-  "editor.wordWrapColumn": 80,
-  "editor.linkedEditing": true,
-  "editor.quickSuggestionsDelay": 0,
-  // terminal
-  "terminal.integrated.profiles.windows": {
+  	"editor.gotoLocation.multipleDefinitions": "goto",
+  	"editor.guides.indentation": false,
+  	"windsurf.cascadeOpenOnReload": false,
+  	"editor.renderWhitespace": "none",
+  	"editor.lightbulb.enabled": "off",
+  	"editor.showFoldingControls": "never",
+  	"editor.scrollbar.horizontal": "hidden",
+  	"editor.scrollbar.vertical": "hidden",
+  	"editor.hideCursorInOverviewRuler": true,
+  	"editor.overviewRulerBorder": false,
+  	"editor.cursorStyle": "line-thin",
+  	"editor.cursorSmoothCaretAnimation": "on",
+  	"editor.cursorBlinking": "expand",
+  	"workbench.tree.enableStickyScroll": false,
+  	"editor.smoothScrolling": true,
+  	"editor.stickyScroll.enabled": false,
+  	"editor.stickyScroll.scrollWithEditor": false,
+  	"editor.tabSize": 2,
+  	"editor.detectIndentation": false,
+  	"editor.fontFamily": "JetBrains Mono, Maple Mono",
+  	"editor.fontSize": 16.5,
+  	"editor.lineHeight": 21.5,
+  	"editor.fontWeight": "400",
+  	"editor.fontLigatures": true,
+  	"explorer.confirmDragAndDrop": false,
+  	"explorer.confirmDelete": false,
+  	"explorer.compactFolders": false,
+  	"files.insertFinalNewline": true,
+  	"extensions.ignoreRecommendations": true,
+  	"files.autoSave": "afterDelay",
+  	"window.titleBarStyle": "native",
+  	"editor.glyphMargin": false,
+  	"editor.bracketPairColorization.enabled": true,
+  	"editor.accessibilitySupport": "off",
+  	"editor.wordWrap": "bounded",
+  	"prettier.semi": true,
+  	"prettier.singleQuote": true,
+  	"prettier.bracketSpacing": true,
+  	"prettier.trailingComma": "all",
+  	"prettier.useTabs": false,
+  	"prettier.tabWidth": 4,
+  	"prettier.arrowParens": "always",
+  	"prettier.printWidth": 100,
+  	"prettier.endOfLine": "lf",
+  	"editor.wrappingIndent": "same",
+  	"files.eol": "\n",
+  	"editor.wordWrapColumn": 80,
+  	"editor.linkedEditing": true,
+  	"editor.quickSuggestionsDelay": 0,
+  	// terminal
+  	"terminal.integrated.profiles.windows": {
     "Git Bash": {
       "path": "E:\\Programms\\Git\\bin\\bash.exe",
       "icon": "terminal-bash"
@@ -148,87 +147,88 @@
       "args": [],
       "icon": "terminal-cmd"
     }
-  },
-  "terminal.integrated.fontFamily": "JetBrains Mono, Dank Mono",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.cursorStyle": "line",
-  // linters
-  "eslint.format.enable": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": false,
-  "prettier.useEditorConfig": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "eslint.validate": [
+  	},
+  	"terminal.integrated.fontFamily": "JetBrains Mono, Dank Mono",
+  	"terminal.integrated.defaultProfile.windows": "Git Bash",
+  	"terminal.integrated.cursorStyle": "line",
+  	// linters
+  	"eslint.format.enable": true,
+  	"editor.formatOnSave": true,
+  	"editor.formatOnPaste": false,
+  	"prettier.useEditorConfig": false,
+  	"editor.codeActionsOnSave": {
+    	"source.fixAll.eslint": "explicit"
+  	},
+  	"eslint.validate": [
     "javascript",
     "javascriptreact",
     "typescript",
     "typescriptreact"
-  ],
-  "eslint.useFlatConfig": true,
-  "css.validate": true,
-  "scss.validate": true,
-  "stylelint.enable": true,
-  "stylelint.validate": [
+  	],
+  	"eslint.useFlatConfig": true,
+  	"css.validate": true,
+  	"scss.validate": true,
+  	"stylelint.enable": true,
+  	"stylelint.validate": [
     "css",
     "scss"
-  ],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // apc
-  "apc.font.family": "JetBrains Mono",
-  "window.customTitleBarVisibility": "auto",
-  "window.density.editorTabHeight": "compact",
-  "notebook.compactView": true,
-  "apc.menubar.compact": true,
-  "security.workspace.trust.untrustedFiles": "open",
-  // tailwind
-  "files.associations": {
-    "*.css": "css"
+  	],
+  	"editor.defaultFormatter": "esbenp.prettier-vscode",
+  	// apc
+  	"apc.font.family": "JetBrains Mono",
+  	"window.customTitleBarVisibility": "never",
+  	"window.density.editorTabHeight": "compact",
+  	"notebook.compactView": true,
+  	"apc.menubar.compact": true,
+  	"security.workspace.trust.untrustedFiles": "open",
+  	// tailwind
+  	"files.associations": {
+    	"*.css": "css"
     // "*.scss": "tailwindcss"
-  },
-  "[go]": {
+  	},
+  	"[go]": {
     "editor.defaultFormatter": "golang.go"
-  },
-  "[dockerfile]": {
+  	},
+  	"[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  },
-  "[javascript]": {
+  	},
+  	"[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
+  	},
+  	"[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
+  	},	
+  	"[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
+  	},
+  	"[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "gitlens.graph.showRemoteNames": true,
-  "go.inlayHints.parameterNames": true,
-  "html-to-css-autocompletion.folderNamesToBeExcluded": [
+  	},
+  	"gitlens.graph.showRemoteNames": true,
+  	"go.inlayHints.parameterNames": true,
+  	"html-to-css-autocompletion.folderNamesToBeExcluded": [
     "node_modules"
-  ],
-  "javascript.inlayHints.parameterNames.enabled": "all",
-  "[prisma]": {
+  	],
+  	"javascript.inlayHints.parameterNames.enabled": "all",
+  	"[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
-  },
-  "[jsonc]": {
+  	},
+  	"[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "gitlens.defaultDateLocale": "ru-RU",
-  "workbench.colorTheme": "PurpleSchool Theme",
-  "windsurf.autoExecutionPolicy": "off",
-  "php.validate.executablePath": "C:\\Program Files\\php-8.4.3\\php.exe",
-  "[php]": {
+  	},
+  	"gitlens.defaultDateLocale": "ru-RU",
+  	"workbench.colorTheme": "PurpleSchool Theme",
+  	"windsurf.autoExecutionPolicy": "off",
+  	"php.validate.executablePath": "C:\\Program Files\\php-8.4.3\\php.exe",
+  	"[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "[snippets]": {
+  	},
+  	"[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "windsurf.explainAndFixInCurrentConversation": true,
-}
+  	},
+  	"windsurf.explainAndFixInCurrentConversation": true,
+  	"workbench.layoutControl.enabled": false,
+	}
 
 
 # Мои сниппеты
@@ -371,134 +371,164 @@
 
 # Мои бинды горячих клавиш
 
-		[ 
-	{
-		"key": "ctrl+alt+q",
-		"command": "extension.ecsstractor_port_runwithbemandcomments"
-	},
-	{
-		"key": "ctrl+alt+w",
-		"command": "extension.ecsstractor_port_runwithbem"
-	},
-	{
-		"key": "ctrl+s",
-		"command": "notebook.format",
-		"when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
-	},
-	{
-		"key": "shift+alt+f",
-		"command": "-notebook.format",
-		"when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
-	},
-	{
-		"key": "ctrl+s",
-		"command": "notebook.formatCell",
-		"when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
-	},
-	{
-		"key": "shift+alt+f",
-		"command": "-notebook.formatCell",
-		"when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
-	},
-	{
-		"key": "ctrl+s",
-		"command": "editor.action.formatDocument.none",
-		"when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
-	},
-	{
-		"key": "shift+alt+f",
-		"command": "-editor.action.formatDocument.none",
-		"when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
-	},
-	{
-		"key": "ctrl+s",
-		"command": "editor.action.formatDocument",
-		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-	},
-	{
-		"key": "shift+alt+f",
-		"command": "-editor.action.formatDocument",
-		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-	},
-	{
-		"key": "ctrl+.",
-		"command": "turboConsoleLog.displayLogMessage"
-	},
-	{
-		"key": "ctrl+e",
-		"command": "workbench.action.toggleSidebarVisibility"
-	},
-	{
-		"key": "ctrl+e",
-		"command": "workbench.files.action.focusFilesExplorer",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "a",
-		"command": "explorer.newFile",
-		"when": "filesExplorerFocus && !inputFocus"
-	},
-	{
-		"key": "shift+a",
-		"command": "explorer.newFolder",
-		"when": "filesExplorerFocus"
-	},
-	{
-		"key": "ctrl+.",
-		"command": "editor.action.codeAction"
-	},
-	{
-		"key": "r",
-		"command": "renameFile",
-		"when": "filesExplorerFocus && !inputFocus"
-	},
-	{
-		"key": "c",
-		"command": "filesExplorer.copy",
-		"when": "filesExplorerFocus && !inputFocus"
-	},
-	{
-		"key": "p",
-		"command": "filesExplorer.paste",
-		"when": "filesExplorerFocus && !inputFocus"
-	},
-	{
-		"key": "d",
-		"command": "deleteFile",
-		"when": "filesExplorerFocus && !inputFocus"
-	},
-	{
-		"key": "ctrl+alt+left",
-		"command": "workbench.action.focusLeftGroup"
-	},
-	{
-		"key": "ctrl+alt+right",
-		"command": "workbench.action.focusRightGroup"
-	},
-	{
-		"key": "ctrl+b",
-		"command": "editor.action.revealDefinition",
-		"when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-	},
-	{
-		"key": "ctrl+tab",
-		"command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
-		"when": "!activeEditorGroupEmpty"
-	},
-	{
-		"key": "ctrl+tab",
-		"command": "-workbench.action.quickOpenNavigateNextInEditorPicker",
-		"when": "inEditorsPicker && inQuickOpen"
-	},
-	{
-		"key": "ctrl+tab",
-		"command": "workbench.action.nextEditor"
-	},
-	{
-		"key": "ctrl+shift+tab",
-		"command": "workbench.action.previousEditor"
-	},
-
+		[
+    {
+        "command": "extension.ecsstractor_port_runwithbemandcomments",
+        "key": "ctrl+alt+q"
+    },
+    {
+        "command": "extension.ecsstractor_port_runwithbem",
+        "key": "ctrl+alt+w"
+    },
+    {
+        "command": "notebook.format",
+        "key": "ctrl+s",
+        "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "command": "-notebook.format",
+        "key": "shift+alt+f",
+        "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "command": "notebook.formatCell",
+        "key": "ctrl+s",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "command": "-notebook.formatCell",
+        "key": "shift+alt+f",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "command": "editor.action.formatDocument.none",
+        "key": "ctrl+s",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "command": "-editor.action.formatDocument.none",
+        "key": "shift+alt+f",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "command": "editor.action.formatDocument",
+        "key": "ctrl+s",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "command": "-editor.action.formatDocument",
+        "key": "shift+alt+f",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "command": "turboConsoleLog.displayLogMessage",
+        "key": "ctrl+."
+    },
+    {
+        "command": "workbench.action.toggleSidebarVisibility",
+        "key": "ctrl+e"
+    },
+    {
+        "command": "workbench.files.action.focusFilesExplorer",
+        "key": "ctrl+e",
+        "when": "editorTextFocus"
+    },
+    {
+        "command": "explorer.newFile",
+        "key": "a",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "explorer.newFolder",
+        "key": "shift+a",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "command": "editor.action.codeAction",
+        "key": "ctrl+."
+    },
+    {
+        "command": "renameFile",
+        "key": "r",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "filesExplorer.copy",
+        "key": "c",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "filesExplorer.paste",
+        "key": "p",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "deleteFile",
+        "key": "d",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "workbench.action.focusLeftGroup",
+        "key": "ctrl+alt+left"
+    },
+    {
+        "command": "workbench.action.focusRightGroup",
+        "key": "ctrl+alt+right"
+    },
+    {
+        "command": "editor.action.revealDefinition",
+        "key": "ctrl+b",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+        "key": "ctrl+tab",
+        "when": "!activeEditorGroupEmpty"
+    },
+    {
+        "command": "-workbench.action.quickOpenNavigateNextInEditorPicker",
+        "key": "ctrl+tab",
+        "when": "inEditorsPicker && inQuickOpen"
+    },
+    {
+        "command": "workbench.action.nextEditor",
+        "key": "ctrl+tab"
+    },
+    {
+        "command": "workbench.action.previousEditor",
+        "key": "ctrl+shift+tab"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "editor.action.clipboardPasteAction"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inProjectManagerList"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inProjectManagerList"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "editorFocus"
+    }
 	]
 
 
